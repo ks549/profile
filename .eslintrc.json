@@ -1,0 +1,13 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["standard"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "no-console": "on",
+    "comma-dangle": "on",
+    "react/jsx-filename-extension": "off"
+  }
+}
