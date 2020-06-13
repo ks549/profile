@@ -1,6 +1,6 @@
 import React from "react";
-import {HomeComponent} from './HomeComponent.jsx';
-import { connect } from 'react-redux';
+import HomeComponent from './HomeComponent.jsx';
+// import { connect } from 'react-redux';
 
 const App = props => {
   return (
@@ -13,10 +13,12 @@ const App = props => {
 };
 
 
-const mapStateToProps = (state) => {
-  return {
-    gallery: state.gallery
-  }
-}
+// const mapStateToProps = (state) => {
+//   return {
+//     gallery: state.gallery
+//   }
+// }
 
-export default connect(mapStateToProps)(App);
+// export default connect(mapStateToProps)(App);
+
+export default App;
