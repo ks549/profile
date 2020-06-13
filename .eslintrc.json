@@ -6,8 +6,8 @@
     "node": true
   },
   "rules": {
-    "no-console": "on",
-    "comma-dangle": "on",
+    "no-console": "off",
+    "comma-dangle": "off",
     "react/jsx-filename-extension": "off"
   }
 }

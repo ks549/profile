@@ -1,5 +1,5 @@
 import React from "react";
-import HomeComponent from './HomeComponent.jsx';
+import {HomeComponent} from './HomeComponent.jsx';
 import { connect } from 'react-redux';
 
 const App = props => {

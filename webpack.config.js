@@ -1,6 +1,5 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 const outputDirectory = 'src/dist';
 
@@ -51,8 +50,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './public/index.html',
-      favicon: './public/favicon.ico'
+      template: path.join(__dirname, 'public', 'index.html'),
+      favicon: path.join(__dirname, 'public', 'favicon.ico')
     })
   ]
 };
